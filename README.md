@@ -12,4 +12,4 @@ Each time the player thinks he has found a word they must check the word by clic
 
 
 #Game demo:
-[Wordsearch] ('https://tahirabf.github.io/GOT-Wordsearch/')
+[GOT-Wordsearch] (https://tahirabf.github.io/GOT-Wordsearch/)
