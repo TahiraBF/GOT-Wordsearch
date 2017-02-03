@@ -1,0 +1,157 @@
+* {
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+}
+
+body {
+  background-image: url(http://static1.squarespace.com/static/52fc05c9e4b08fc45bd99090/5331dfe2e4b0f77da2ddde51/56ccccfe40261d9c2e3601a4/1456334456046/?format=1000w);
+}
+
+button {
+  position: relative;
+  color: #0a2834;
+  background-image: url(http://previews.123rf.com/images/nixite/nixite1005/nixite100500006/6978190-Closeup-view-of-Ice-wall-background-Stock-Photo.jpg);
+}
+
+#container {
+  margin-top: 5%;
+}
+
+h1 {
+  color: #79A5B0;
+}
+
+#intro {
+  color: #B4AFB2;
+}
+
+#mainHolder {
+  height: 400px;
+  width: 400px;
+  background-color: rgba(9, 80, 62, 0.3);
+  border: 2px solid #3D1E1F;
+  margin: 0 35%;
+  position: absolute;
+}
+
+#check:active {
+  transform-style: preserve-3d;
+}
+
+#checkBox {
+  background-color: #89EED4;
+  border: 2px solid #2C6758;
+  height: 70px;
+  width: 150px;
+}
+
+#popBox {
+  position: relative;
+  margin: auto;
+  margin-top: 15%;
+  width: 180px;
+  height: 180px;
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.movePopBox {
+  position: absolute;
+
+}
+
+.hide {
+  display: none;
+}
+
+#sideList {
+  color: #fff;
+  height: 400px;
+  width: 150px;
+  background-color: rgba(9, 80, 62, 0.3);
+  border: 2px solid #2C6758;
+  margin-left: 15% ;
+
+}
+
+li {
+  color: white;
+  text-align: justify;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+/*.strike {
+  text-decoration: line-through;
+  color: white;
+  text-align: justify;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-right: 20px;
+  list-style-type: none;
+}*/
+
+#gridSpace {
+  width: 400px;
+  height: 400px;
+  padding: 0;
+}
+
+#squares {
+  margin: 0;
+  padding: 0;
+}
+
+td {
+  width: 39px;
+  height: 39px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border: 0.5px solid white;
+  text-rendering: geometricPrecision;
+  padding-top: 10px;
+  box-sizing: border-box;
+  color: white;
+}
+
+td:hover {
+  background-color: yellow;
+  color: #C8097A;
+}
+
+.cell {
+  background-color: rgba(9, 80, 62, 0.3);
+  font-weight: bold;
+}
+.active {
+  background-color: rgba(214, 10, 28, 1);
+}
+
+.alert{
+  display: block;
+}
+
+.sweet-alert {
+  font-size: 25%;
+  width: 150px;
+}
+
+#win {
+  /*padding: 20px;*/
+  position: relative;
+  display: block;
+  margin-left: -100px;
+  margin-top: -150px;
+  margin-bottom: 100px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 400px;
+  height: 450px;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/564x/0c/1d/ff/0c1dff966bd7a9e595cd2ec7dfd95cb2.jpg);
+}
