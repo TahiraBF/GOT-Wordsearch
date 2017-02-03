@@ -83,16 +83,6 @@ li {
   list-style-type: none;
 }
 
-/*.strike {
-  text-decoration: line-through;
-  color: white;
-  text-align: justify;
-  padding-right: 20px;
-  padding-top: 10px;
-  margin-right: 20px;
-  list-style-type: none;
-}*/
-
 #gridSpace {
   width: 400px;
   height: 400px;
@@ -141,7 +131,6 @@ td:hover {
 }
 
 #win {
-  /*padding: 20px;*/
   position: relative;
   display: block;
   margin-left: -100px;
