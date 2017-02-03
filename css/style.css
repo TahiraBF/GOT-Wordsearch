@@ -13,6 +13,14 @@ button {
   background-image: url(http://previews.123rf.com/images/nixite/nixite1005/nixite100500006/6978190-Closeup-view-of-Ice-wall-background-Stock-Photo.jpg);
 }
 
+#play {
+  margin: 150px;
+}
+
+.winPosition {
+
+}
+
 #container {
   margin-top: 5%;
 }
@@ -29,7 +37,6 @@ h1 {
   height: 400px;
   width: 400px;
   background-color: rgba(9, 80, 62, 0.3);
-  border: 2px solid #3D1E1F;
   margin: 0 35%;
   position: absolute;
 }

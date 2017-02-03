@@ -2,7 +2,7 @@ function Game(grid){
   this.newGrid = grid;
   this.alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   this.words = ["SANSA", "VISERYS", "DAENERYS", "CERSEI", "ARYA", "JOFFREY","TYWIN", "SANDOR", "DROGO", "VARYS", "OBERYN", "DOTHRAKI", "TYRION", "BRANDON", "STANIS", "SANDSNAKE", "JONSNOW", "DIREWOLF", "GREYJOY"];
-  this.hiddenWords = ["SANSA", "DAENERYS", "CERSEI", "ARYA", "JOFFREY","TYWIN", "SANDOR", "DROGO", "VARYS", "BRANDON"];
+  this.hiddenWords = ["SANSA"];
   this.wordHide = [];
   this.coordinates = {
               row : 0,
@@ -82,10 +82,11 @@ Game.prototype.checkWord = function(){
 
 Game.prototype.gameWon = function (){
   $('#win').remove();
-  $('#popBox').toggleClass("hide");
   $('#popBox').append('<div id="win">' + "You have won the game of thrones!" + '</div>');
+  $('#popBox').toggleClass("hide");
   $('#container').toggleClass("hide");
   $('#sidelist').toggleClass("hide");
+  $('#play').toggleClass('winPosition');
   console.log("win");
 };
 
