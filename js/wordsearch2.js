@@ -2,7 +2,7 @@ function Game(grid){
   this.newGrid = grid;
   this.alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   this.words = ["SANSA", "VISERYS", "DAENERYS", "CERSEI", "ARYA", "JOFFREY","TYWIN", "SANDOR", "DROGO", "VARYS", "OBERYN", "DOTHRAKI", "TYRION", "BRANDON", "STANIS", "SANDSNAKE", "JONSNOW", "DIREWOLF", "GREYJOY"];
-  this.hiddenWords = ["SANSA"];
+  this.hiddenWords = ["SANSA", "DAENERYS", "CERSEI", "ARYA", "JOFFREY","TYWIN", "SANDOR", "DROGO", "VARYS","BRANDON"];
   this.wordHide = [];
   this.coordinates = {
               row : 0,
